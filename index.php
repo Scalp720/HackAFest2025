@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="global.css">
     <title>Landing Page</title>
 </head>
+
 <body>
-   
+
     <?php include 'header.php'; ?>
 
     <!-- Welcome Hacker Animation -->
@@ -19,6 +21,21 @@
         </div>
     </main>
 
+    <section class="index-section">
+    <h1>What is Hack4Gov CTF?</h1>
+    <p>Hack4Gov CTF (Capture the Flag) is an exciting cybersecurity competition organized by DICT. It has achieved back-to-back championships and proudly represented Western Visayas on a national level.</p>
+    <p>Do you want to be part of it and capture the flag of being a Grand Slam Champion while representing ISAT-U? Join us and showcase your skills!</p>
+    <div class="image-gallery">
+      <h2 class="image-gallery-title">Highlights</h2>
+      <div class="image-gallery-row">
+        <img src="./assets/img/img1.jpg" alt="Team Championship">
+        <img src="./assets/img/img5.jpg" alt="Hack4Gov Logo">
+        <img src="./assets/img/img4.jpg" alt="Western Visayas Representation">
+        <img src="./assets/img/img6.jpg" alt="Team Championship">
+        <img src="./assets/img/img7.jpg" alt="Hack4Gov Logo">
+      </div>
+    </div>
+  </section>
     <script>
         const typingEffect = document.querySelector('.typing-effect');
         const glitchEffect = document.querySelector('.glitch');
@@ -47,4 +64,5 @@
         toggleAnimations();
     </script>
 </body>
+
 </html>

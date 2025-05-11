@@ -119,7 +119,7 @@ li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   text-align: center;
 }
 .animation-container {
@@ -402,4 +402,106 @@ animation-container .forgot {
   text-align: center;
   font-size: 22px;
   color: #fff;
+}
+
+.index-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  background: #212121;
+  color: white;
+}
+
+.index-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  animation: fadeIn 2s;
+}
+
+.index-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  animation: fadeIn 2.5s;
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  animation: slideUp 3s;
+  margin-bottom: 20px;
+}
+
+.image-gallery-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.image-gallery-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-gallery img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .index-section h1 {
+    font-size: 2rem;
+  }
+  .index-section p {
+    font-size: 1rem;
+  }
+  .image-gallery img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .index-section h1 {
+    font-size: 1.5rem;
+  }
+  .index-section p {
+    font-size: 0.9rem;
+  }
+  .image-gallery img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
