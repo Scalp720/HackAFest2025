@@ -25,6 +25,12 @@
     <h1>What is Hack4Gov CTF?</h1>
     <p>Hack4Gov CTF (Capture the Flag) is an exciting cybersecurity competition organized by DICT. It has achieved back-to-back championships and proudly represented Western Visayas on a national level.</p>
     <p>Do you want to be part of it and capture the flag of being a Grand Slam Champion while representing ISAT-U? Join us and showcase your skills!</p>
+    <p class="hideme">All journeys begin somewhere—try opening index.php<p>
+        <!-- Sometimes, the answer is hidden in plain sight—but encoded for safekeeping.
+        Start by following the drive to your destination.
+        What you find there might look like nonsense, but with the right lens, it paints a picture.
+        Decode the message and see what’s revealed. -->
+        <!-- https://drive.google.com/file/d/1rTy0Zs-HSd7WO_Q69RlFMlRYD0mzbDux/view?usp=sharing -->
     <div class="image-gallery">
       <h2 class="image-gallery-title">Highlights</h2>
       <div class="image-gallery-row">
