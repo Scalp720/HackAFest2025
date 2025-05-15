@@ -17,13 +17,14 @@
         </div>
         <div class="about-content">
             <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-                software like Aldus PageMaker including versions of Lorem Ipsum.
+            Hack4Gov is a government-led hackathon that brings together developers, designers, and innovators to create tech-driven solutions addressing public sector challenges. It aims to foster collaboration between government agencies and the tech community, encouraging innovation, transparency, and digital transformation in public service delivery.
             </p>
+            <br>
+            <p>
+                A great example is Cryptography where a encrypted puzzle is needed to be solve in order to achieve a flag, it may be like "5ejd5ddi" where the key may be a familiar word like a title. Most of these ciphers are used with different decoding tools such as Decode or CyberChef.
+            </p>
+            <br>
+            <p>The given phrase is only part of the puzzle or maybe a tiny URL? Its up to you to find a way to solve each tasks and show your cybersecurity skills.</p>
         </div>
     </div>
 </body>
