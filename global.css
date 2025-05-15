@@ -509,3 +509,31 @@ animation-container .forgot {
     opacity: 1;
   }
 }
+
+.error-popup {
+    background: #ffdddd;
+    color: #a94442;
+    border: 1px solid #a94442;
+    padding: 10px 20px;
+    margin: 15px auto;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logout-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 16px;
+    background: #a94442;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.logout-link:hover {
+    background: #ff5555;
+}
